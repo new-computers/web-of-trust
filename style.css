@@ -4,5 +4,6 @@ body {
 }
 
 li {
-	padding-bottom: 0.5em;
+	padding-bottom: 1em;
+	line-height: 1.5em;
 }
