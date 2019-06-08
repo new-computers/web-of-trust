@@ -1,9 +1,50 @@
+html { box-sizing: border-box }
+*, *:before, *:after { box-sizing: inherit }
+html, body, h1, h2, h3, h4, h5, h6, p, ol, ul, li,
+dl, dt, dd, blockquote, address { margin: 0; padding: 0 }
+
+html {
+  width: 100%;
+  font-size: 18px;
+	max-width: 36rem;
+}
+
 body {
-	max-width: 1000px;
-	margin: 1.5em;
+  -webkit-overflow-scrolling: touch;
+  -ms-overflow-style: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  padding: 1rem;
+}
+
+h1, h2, h3 {
+  font-size: 1rem;
+}
+
+h1 {
+  padding-bottom: 2rem;
+}
+
+h2, h3,
+main p {
+  padding-bottom: 1rem;
+}
+
+p {
+  font-size: 1rem;
 }
 
 li {
 	padding-bottom: 1em;
 	line-height: 1.5em;
+}
+
+/*  --- */
+
+.fs2 {
+  font-size: 2em;
+}
+
+.tdn {
+  text-decoration: none
 }
