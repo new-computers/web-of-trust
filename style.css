@@ -58,9 +58,6 @@ main > figure {
 
 code {
   font-size: 0.9rem;
-} 
-
-code,
   overflow-wrap: break-word;
   word-wrap: break-word;
   -ms-word-break: break-all;
