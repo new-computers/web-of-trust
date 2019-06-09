@@ -43,8 +43,8 @@ ul {
   padding-left: 1rem;
 }
 
-main > figure {
-  padding-bottom: 1.5rem;
+figure {
+  padding: 1.5rem 0;
 }
 
 /*  --- */
