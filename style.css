@@ -47,6 +47,10 @@ figure {
   padding: 1.5rem 0;
 }
 
+main > figure {
+  padding: 0 0 1.5rem 0;
+}
+
 /*  --- */
 
 .fs2 {
