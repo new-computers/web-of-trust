@@ -6,11 +6,11 @@ dl, dt, dd, blockquote, address { margin: 0; padding: 0 }
 html {
   width: 100%;
   font-size: 18px;
-	max-width: 36rem;
 }
 
 body {
   width: 100%;
+  max-width: 36rem;
   -webkit-overflow-scrolling: touch;
   -ms-overflow-style: none;
   -webkit-font-smoothing: antialiased;
