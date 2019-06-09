@@ -1,6 +1,6 @@
 html { box-sizing: border-box }
 *, *:before, *:after { box-sizing: inherit }
-html, body, h1, h2, h3, h4, h5, h6, p, ol, ul, li,
+html, body, h1, h2, h3, h4, h5, h6, p, figure, ol, ul, li,
 dl, dt, dd, blockquote, address { margin: 0; padding: 0 }
 
 html {
@@ -22,11 +22,16 @@ h1, h2, h3 {
 }
 
 h1 {
-  padding-bottom: 2rem;
+  padding-bottom: 3rem;
+}
+
+main {
+  padding-top: 3rem;
 }
 
 h2, h3,
-main p {
+main p,
+main ul {
   padding-bottom: 1rem;
 }
 
@@ -34,9 +39,12 @@ p {
   font-size: 1rem;
 }
 
-li {
-	padding-bottom: 1em;
-	line-height: 1.5em;
+ul {
+  padding-left: 1rem;
+}
+
+main > figure {
+  padding-bottom: 1.5rem;
 }
 
 /*  --- */
