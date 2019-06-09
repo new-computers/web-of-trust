@@ -10,6 +10,7 @@ html {
 }
 
 body {
+  width: 100%;
   -webkit-overflow-scrolling: touch;
   -ms-overflow-style: none;
   -webkit-font-smoothing: antialiased;
@@ -53,6 +54,22 @@ figure {
 
 main > figure {
   padding: 0 0 1.5rem 0;
+}
+
+code {
+  font-size: 0.9rem;
+} 
+
+code,
+.ww {
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  -ms-word-break: break-all;
+  word-break: break-word;
+  -ms-hyphens: auto;
+  -moz-hyphens: auto;
+  -webkit-hyphens: auto;
+  hyphens: auto;
 }
 
 /*  --- */
